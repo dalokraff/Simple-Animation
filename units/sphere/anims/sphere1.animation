@@ -1,0 +1,9 @@
+bones = "units/sphere/sphere"
+tolerance = {
+	"" = [
+		0.01
+		0.01
+		false
+		false
+	]
+}

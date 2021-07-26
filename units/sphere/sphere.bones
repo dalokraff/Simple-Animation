@@ -1,0 +1,4 @@
+bones = [
+	"cube"
+	"sphere"
+]
