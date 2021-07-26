@@ -1,0 +1,24 @@
+/*	@adoc shaders
+	@node Particles > Billboard Size
+	@des Returns the size of the billboard.
+	@req [Output > Particle Base]
+*/
+group = "Particles"
+display_name = "Billboard Size"
+
+imports = {
+	size = {
+		type = "float2"
+		semantic = "TEXCOORD7"
+		domain = "vertex"
+	}
+}
+
+output = {
+	name = "XY"
+	type = "float2"
+}
+
+code = """
+	RESULT(size);
+"""

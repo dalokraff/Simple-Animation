@@ -1,0 +1,24 @@
+/*	@adoc shaders
+	@node Particles > Billboard Position
+	@des Returns the position of the billboard.
+	@req [Output > Particle Base]
+*/
+group = "Particles"
+display_name = "Billboard Position"
+
+imports = {
+	position = {
+		type = "float4"
+		semantic = "POSITION0"
+		domain = "vertex"
+	}
+}
+
+output = {
+	name = "XYZ"
+	type = "float3"
+}
+
+code = """
+	RESULT(position.xyz);
+"""

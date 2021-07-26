@@ -1,0 +1,23 @@
+mod = [
+	"Simple Animation"
+]
+
+package = [
+	"resource_packages/Simple Animation/Simple Animation"
+]
+
+lua = [
+	"scripts/mods/Simple Animation/*"
+]
+
+unit = [
+  "units/*"
+]
+
+material = [
+  "materials/*"
+]  
+
+texture = [
+  "textures/*"
+] 
