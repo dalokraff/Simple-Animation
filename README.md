@@ -2,6 +2,9 @@
 Only details on animations will be covered here, for info on importing custom units see [Craven's guide](https://github.com/Craven73/Vermintide-Mods/tree/master/ExampleCustomUnit). 
 You won't need to setup a physics file for your unit unless you want it to have collision.
 
+# End Result
+Using this example mod it will come with the following object and animation, feel free to change the files with your own objects ![video demo](https://i.imgur.com/jKFsXrE.mp4)
+
 # Setting Up the Model and Animation
 For this specific package we are going to have 2 parented objects rotating, but it should work fine if you only have 1 object, you can follow the animation steps and it should be fine. If you are new to blender, or don't usually work with it, use the `animation tab` (at the very top, near layout, UV editing...) and make sure to set the interface up similarly to what is shown, we will need the `Non linear animation` and the `dope sheet` windows.
 
