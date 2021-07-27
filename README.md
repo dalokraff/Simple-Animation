@@ -6,20 +6,20 @@ You won't need to setup a physics file for your unit unless you want it to have 
 For this specific package we are going to have 2 parented objects rotating, but it should work fine if you only have 1 object, you can follow the animation steps and it should be fine. If you are new to blender, or don't usually work with it, use the `animation tab` (at the very top, near layout, UV editing...) and make sure to set the interface up similarly to what is shown, we will need the `Non linear animation` and the `dope sheet` windows.
 
 First create your objects, and if you make any changes to their rotation or scale make sure to apply it using `ctrl + a`
-![Step1](https://imgur.com/eSkLUmg)
+![Step1](https://i.imgur.com/eSkLUmg.png)
 
 after that we are going to parent them using `ctrl + p`
-![Step2](https://imgur.com/7g565kb)
+![Step2](https://i.imgur.com/7g565kb.png)
 
 next for the animations use `I` to insert keyframes, currently scale animations don't seem to work, so don' use it, so define the starting position of your objects, `insert location rotation keyframes`, and animate away, move the cursor to the next frame you want to animate, make changes to your object and insert keyframes again.
-![Step3](https://imgur.com/VotdySs)
+![Step3](https://i.imgur.com/VotdySs.png)
 
 Once you are done with your animation you're going to want to push the action into an NLA strip, by pressing the button shown in the image, IMPORTANT, this will make your keyframes disappear, and you will have to change your dope sheet tab into the action editor tab if you wish to make any changes, and then push it down again.
-![Step4](https://imgur.com/3bDk2on)
+![Step4](https://i.imgur.com/3bDk2on.png)
 
 ## Export Settings
 If you use the `Selected objects` option make sure you have all the objects you want to export selected, change the `Apply scalings` to FBX Units Scale and in animation remove Force Start/End Keying
-![Export Setting](https://imgur.com/EyenTH3)
+![Export Setting](https://i.imgur.com/EyenTH3.png)
 
 # Creating the bones
 In the same directory as your `<custom_unit>.unit` create a file called `<custom_unit>.bones`.
